@@ -44,15 +44,23 @@ body {
     background: #253c4d;
 
     align-items: center;
+    gap: 1%;
+    .input {
+      background-color: #253c4d;
+      color: white;
+      height: 80%;
+      width: 80%;
+      border: none;
+      outline: none;
+    }
     .BtnAdd {
       margin: 10px;
-      border: 0;
       height: 25px;
       width: 25px;
-      color: white;
+      color: #b6e0ff;
       background-color: #253c4d;
       border-radius: 50px;
-      border: 2px solid white;
+      border: 1px solid #b6e0ff;
     }
     .BtnAdd:hover {
       background-color: #1d303d;
@@ -70,15 +78,28 @@ body {
 
     overflow: auto;
     .WorkElement {
+      display: flex;
       border-top: 1px solid #b6e0ff;
       height: 60px;
       width: 388px;
+      color: #fff;
+      font-family: Inter;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+
+      align-items: center;
+      gap: 1%;
+      .CheckBtn {
+        margin: 10px;
+        height: 25px;
+        width: 25px;
+        color: #b6e0ff;
+        background-color: #253c4d;
+        border-radius: 50px;
+        border: 1px solid #b6e0ff;
+      }
     }
   }
-}
-
-input {
-  background-color: #253c4d;
-  height: auto;
-  width: auto;
 }
