@@ -1,0 +1,84 @@
+html {
+  display: flex;
+  height: 100%;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.CenterBlock {
+  display: flex;
+  background-color: #00111d;
+  height: 536px;
+  width: 640px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+
+  .Title {
+    margin-top: 50px;
+    height: 48px;
+
+    color: #b6e0ff;
+    font-family: Fira Code;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex-shrink: 0;
+    justify-self: flex-start;
+  }
+
+  .NewWork {
+    display: flex;
+    margin: 50px auto 20px auto;
+    height: 60px;
+    width: 388px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #253c4d;
+
+    align-items: center;
+    .BtnAdd {
+      margin: 10px;
+      border: 0;
+      height: 25px;
+      width: 25px;
+      color: white;
+      background-color: #253c4d;
+      border-radius: 50px;
+      border: 2px solid white;
+    }
+    .BtnAdd:hover {
+      background-color: #1d303d;
+      justify-self: flex-start;
+    }
+  }
+
+  .AddedWork {
+    height: 240px;
+    width: 388px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #253c4d;
+    justify-self: flex-end;
+
+    overflow: auto;
+    .WorkElement {
+      border-top: 1px solid #b6e0ff;
+      height: 60px;
+      width: 388px;
+    }
+  }
+}
+
+input {
+  background-color: #253c4d;
+  height: auto;
+  width: auto;
+}
