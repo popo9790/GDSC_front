@@ -77,7 +77,7 @@ body {
     justify-self: flex-end;
 
     overflow: auto;
-    .WorkElement_pre {
+    .Prepare {
       display: flex;
       border-top: 1px solid #b6e0ff;
       height: 60px;
@@ -102,11 +102,11 @@ body {
       }
     }
 
-    .WorkElement_pre:first-child {
+    .Prepare:first-child {
       border-top: none;
     }
 
-    .WorkElement_done {
+    .Done {
       display: flex;
       border-top: 1px solid #b6e0ff;
       height: 60px;
@@ -133,8 +133,12 @@ body {
       }
     }
 
-    .WorkElement_done:first-child {
+    .Done:first-child {
       border-top: none;
     }
   }
+}
+
+.test {
+  display: flex;
 }
